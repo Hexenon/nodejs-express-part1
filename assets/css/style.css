@@ -1,0 +1,52 @@
+
+body{
+    background-color: #f9f9f9;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* nav header styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
+}
+
+/* Jumbotron style */
+
+.jumbotron {
+    height: 400px;
+    margin: 50px 50px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.jumbotron .container {
+    padding: 30px 30px;
+}
+
+.jumbotron pre{
+    background-color: #284663;
+    color: #c9c9c9;
+    padding: 30px 30px;
+}
+
